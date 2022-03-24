@@ -26,7 +26,8 @@
     "precommit": "npm run check-sensitive && lint-staged"
   },
   "devDependencies": {
-    "@fluentui/react-northstar": "^0.60.1",
+    "@fluentui/react-components": "latest",
+    "@fluent-blocks/react": "9.0.0-alpha.4",
     "@istanbuljs/nyc-config-typescript": "^1.0.2",
     "@microsoft/microsoft-graph-client": "^3.0.1",
     "@microsoft/teams-js": "^1.9.0",
@@ -34,8 +35,8 @@
     "@testing-library/react-hooks": "^7.0.2",
     "@types/chai": "^4.3.0",
     "@types/mocha": "^9.1.0",
-    "@types/react": "^16.8.0",
-    "@types/react-dom": "^16.8.0",
+    "@types/react": "^17.0.0",
+    "@types/react-dom": "^17.0.0",
     "@types/sinon": "^10.0.11",
     "@typescript-eslint/eslint-plugin": "^5.13.0",
     "@typescript-eslint/parser": "^5.13.0",
@@ -50,18 +51,19 @@
     "msteams-react-base-component": "^3.1.1",
     "nyc": "^15.1.0",
     "prettier": "^2.5.1",
-    "react": "^16.9.0",
-    "react-dom": "^16.9.0",
-    "react-test-renderer": "^16.9.0",
+    "react": "^17.0.0",
+    "react-dom": "^17.0.0",
+    "react-test-renderer": "^17.0.0",
     "rimraf": "^3.0.2",
     "sinon": "^13.0.1"
   },
   "peerDependencies": {
-    "@fluentui/react-northstar": "^0.60.1",
+    "@fluentui/react-components": "latest",
+    "@fluent-blocks/react": "9.0.0-alpha.3",
     "@microsoft/microsoft-graph-client": "^3.0.1",
     "@microsoft/teamsfx": "^0.6.0",
     "msteams-react-base-component": "^3.1.1",
-    "react": "^16.8.6"
+    "react": "^17.0.0"
   },
   "publishConfig": {
     "access": "public"
